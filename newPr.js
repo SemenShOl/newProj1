@@ -1,6 +1,12 @@
-console.log('Тренируем Git')
-console.log('Изменение')
-console.log('Еще одно Изменение')
-console.log('Другая версия')
-console.log('Ветка ficha')
-console.log('Изменение в ficha')
+
+const sum = (arr) => {
+    let summ = 0
+    arr.forEach((element) => { 
+        if(element) {
+            summ++
+        }
+    })
+    return summ
+}
+arr = [true,false,true,undefined]
+console.log(sum(arr))
